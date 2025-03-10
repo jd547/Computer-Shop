@@ -62,9 +62,7 @@ public abstract class ComputerPart  {
         for (int i=0; i<=3; i++) {
             prefix += generateDigit(0, 10);
         }
-        System.out.println("TEST");
         return prefix;
-
     }
 
     public static int generateDigit(int min, int max) {
